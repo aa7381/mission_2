@@ -18,7 +18,6 @@ public class Page2 extends AppCompatActivity implements AdapterView.OnItemClickL
     String kefel, x1, hibor;
     ListView listView;
     String[] arr = new String[20];
-    Double[] arr2 = new Double[20];
     boolean ok;
     Button return_btn ;
 
@@ -65,7 +64,6 @@ public class Page2 extends AppCompatActivity implements AdapterView.OnItemClickL
                 term = x12 * Math.pow(kefel3, i);
             }
             arr[i] = String.valueOf(term);
-            arr2[i] = term;
         }
     }
 
